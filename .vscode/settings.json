@@ -1,0 +1,15 @@
+{
+    "python.analysis.extraPaths": ["/home/nvson5/folder/crypto-service"],
+    "explorer.sortOrder": "type",
+    "python.testing.pytestArgs": [
+      "--cov",
+      "app",
+      "--cov-report",
+      "xml:cov.xml",
+      "--cov-report",
+      "term-missing",
+      "app/tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+  }
